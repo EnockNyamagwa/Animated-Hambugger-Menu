@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+:root{
+    --primary-color: #A7ABDD;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+}
+.box1, .box2, .box3, .box4, .box5, .box6{
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    background-image: linear-gradient(45deg, #4158D0, #C850C0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.box1 div, .box2 div, .box3 div, .box4 div, .box5 div, .box6 div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    padding: .7rem;
+    cursor: pointer;
+    margin: 40px;
+    
+}
+.box1 span, .box2 span, .box3 span, .box4 span, .box5 span, .box6 span{
+    display: block;
+    width: 100%;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s, width .5s;
+}
+
+.box1 .line1{
+    transform: translate(-50%, -40px);
+}
+.box1 .line3{
+    transform: translate(-50%, 30px);
+}
+.box2 .line1{
+    width: 50%;
+    transform: translate(0%, -40px);
+}
+.box2 .line3{
+    width: 50%;
+    transform: translate(-100%, 30px);
+}
+
+
+.box3 .line1{
+    transform: translate(-100%, -40px);
+    width: 50%;
+}
+.box3 .line2{
+    width: 50%;
+}
+.box3 .line3{
+    width: 50%;
+    transform: translate(0%, 30px);
+}
+.box4 .line1{
+    width: 50%;
+    transform: translate(-100%, -40px);
+}
+.box4 .line3{
+    width: 50%;
+    transform: translate(-100%, 30px);
+}
+.box5 .line1{
+    transform: translate(-100%, -40px);
+    width: 50%;
+}
+.box5 .line2{
+    transform: translate(-70%, -50%);
+    width: 75%;
+}
+.box5 .line3{
+    transform: translate(-50%, 30px);
+    width: 100%;
+}
+
+.box6 .line1{
+    transform: translate(-50%, -40px);
+}
+.box6 .line2{
+    width: 75%;
+    transform: translate(-34%, 0px);
+}
+.box6 .line3{
+    width: 50%;
+    transform: translate(-10%, 40px);
+}
+
+
+
+
+/*                      ACTIVE CLASSES                   */
+.active .line1{
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.active .line2{
+    width: 0%;
+}
+.active .line3{
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.active2 .line1{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.active2 .line2{
+    width: 0%;
+}
+.active2 .line3{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.active3 .line1{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.active3 .line2{
+    width: 0%;
+}
+.active3 .line3{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.active4 .line1{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.active4 .line2{
+    width: 0%;
+}
+.active4 .line3{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.active5 .line1{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.active5 .line2{
+    width: 0%;
+}
+.active5 .line3{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.active6 .line1{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.active6 .line2{
+    width: 0%;
+}
+.active6 .line3{
+    width: 100%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Icon Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div id="menu">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div id="menu2">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+
+        <div class="box3">
+            <div id="menu3">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+
+        <div class="box4">
+            <div id="menu4">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+
+        <div class="box5">
+            <div id="menu5">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+
+        <div class="box6">
+            <div id="menu6">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menu = document.getElementById('menu');
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        })
+
+        var menu2 = document.getElementById('menu2');
+        menu2.addEventListener('click', () =>{
+            menu2.classList.toggle('active2');
+        })
+
+        var menu3 = document.getElementById('menu3');
+        menu3.addEventListener('click', () =>{
+            menu3.classList.toggle('active3');
+        })
+
+        var menu4 = document.getElementById('menu4');
+        menu4.addEventListener('click', () =>{
+            menu4.classList.toggle('active4');
+        })
+
+        var menu5 = document.getElementById('menu5');
+        menu5.addEventListener('click', () =>{
+            menu5.classList.toggle('active5');
+        })
+
+        var menu6 = document.getElementById('menu6');
+        menu6.addEventListener('click', () =>{
+            menu6.classList.toggle('active6');
+        })
+    </script>
+
+</body>
+</html>
